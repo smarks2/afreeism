@@ -4,7 +4,7 @@
       The Afreeist
     </h1>
     <h3>
-      Coming Soon
+      Coming Very Soon
     </h3>
   </div>
 </template>
