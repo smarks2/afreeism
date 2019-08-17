@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>The Afreeist</h1>
-    <h3>Coming incredibly Soon</h3>
+    <h3>Coming incredibly Soon or not</h3>
   </div>
 </template>
 
