@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/views/Home.vue';
+import Faq from '@/views/Faq.vue';
 import Handbook from '@/views/Handbook.vue';
 Vue.use(Router);
 export default new Router({
