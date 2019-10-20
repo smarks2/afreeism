@@ -28,6 +28,9 @@
      </p>
      <p>If you 
      wish to explore these ideas, a good starting point is the Afreeist Handbook.</p>
+    <routerLink :to="{name: 'Faq'}">
+    <button>Faq</button>
+    </routerLink>
   </div>
 </template>
 
