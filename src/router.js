@@ -1,10 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/views/Home.vue';
-import Faq from '@/views/Faq.vue';
-
+import Handbook from '@/views/Handbook.vue';
 Vue.use(Router);
-
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
@@ -18,6 +16,11 @@ export default new Router({
       path: '/faq',
       name: 'Faq',
       component: Faq,
+    },
+    {
+      path: '/handbook',
+      name: 'Handbook',
+      component: Handbook,
     },
   ],
 });

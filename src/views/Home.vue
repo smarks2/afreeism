@@ -2,16 +2,21 @@
   <div class="home">
     <h1>The Afreeist Society</h1>
     <p>The Afreeist Society is a collection of individuals interested in the ideas and concepts 
-    of Afreeism.  Afreeism posits that the world is best described as causally
+    of Afreeism.  </p>
+    <p><b>What is afreeism?</b></p>
+    <p>Afreeism (pronounced ay'-free-ism) posits that the world is best described as causally
      or stochastically deterministic and that this implies the absence of free will.  
-     </p><p>
+     </p>
+      <p><b>What are the implications of afreeism?</b></p>
+    <p>
      Without free will there can be no moral responsibility for one's past actions.  That is,
      in Afreeism, there is no concept of desert.  No one deserves either punishment or rewards.
      If we do punish or reward, it has to be justified by something other than the notion
      that a person deserves punishment or reward.  This idea that no one deserves anything
       affects how we envision social
      policy and our own personal philosophy.  For example, afreeism implies:
-     </p><p>
+     </p>
+     <p>
      1.  Our notion of crime and punishment should not be based on retribution, but rather on 
      deterrence, rehabilitation, and (occasionally) on separation.
      </p><p>
@@ -26,10 +31,13 @@
      </p><p>
      </p><p>
      </p>
-     <p>If you 
+      <p><b>How can I learn more about afreesim?</b></p>
+    <p>If you 
      wish to explore these ideas, a good starting point is the Afreeist Handbook.</p>
     <routerLink :to="{name: 'Faq'}">
     <button>Faq</button>
+    </routerLink>
+    <routerLink :to="{name: 'Handbook'}">
     </routerLink>
   </div>
 </template>
