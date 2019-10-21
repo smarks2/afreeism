@@ -50,7 +50,7 @@
       <button>Faq</button>
     </routerLink>
     <br />
-    <routerLink :to="{name: 'Handbook'}">Handbook</routerLink>
+    <routerLink :to="{name: 'Handbook/00A-Contents'}">Contents</routerLink>
   </div>
 </template>
 
@@ -60,7 +60,7 @@ export default {
   name: 'home',
 };
 </script>
-<style scoped>
+<style>
 p {
   text-align: left;
   color: #000000;
