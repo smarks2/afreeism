@@ -2,7 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/views/Home.vue';
 import Faq from '@/views/Faq.vue';
-import Contents from '@/views/Handbook/00A-Contents.vue';
+import 00A-Contents from '@/views/Handbook/00A-Contents.vue';
 Vue.use(Router);
 export default new Router({
   mode: 'history',
@@ -20,8 +20,9 @@ export default new Router({
     },
     {
       path: '/Handbook/00A-Contents',
-      name: 'Contents',
+      name: '00A-Contents',
       component: 00A-Contents,
     },
   ],
 });
+
