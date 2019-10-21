@@ -21,7 +21,7 @@ export default new Router({
     {
       path: '/Handbook/00A-Contents',
       name: 'Contents',
-      component: Contents,
+      component: 00A-Contents,
     },
   ],
 });
