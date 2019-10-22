@@ -113,6 +113,6 @@
 <script>
 // @ is an alias to /src
 export default {
-  name: 'Introduction',
+  name: 'C00B_Introduction',
 };
 </script>

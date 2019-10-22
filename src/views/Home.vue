@@ -50,7 +50,7 @@
       <button>Faq</button>
     </routerLink>
     <br />
-    <routerLink :to="{name: 'Handbook/00A-Contents'}">Contents</routerLink>
+    <routerLink :to="{name: 'Handbook/C00A_Contents'}">Contents</routerLink>
   </div>
 </template>
 
