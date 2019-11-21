@@ -9,7 +9,8 @@
     </table>
     <table>
       <tr>
-        <td>Join Us!</td>
+        <th>Join Us!</th>
+        <th>Newsletter</th>
       </tr>
     </table>
     <p>
@@ -79,14 +80,15 @@ p {
 h1 {
   text-align: left;
   color: #000000;
-  background-color: #a5b564;
+  background-color: #63c7c2;
   text-align: center;
 }
 table, tr, th, td {
   border: 1px solid black;
   width: 100%;
   text-align: center;
-  background-color: #a5b564;
+  background-color: #63c7c2;
   padding: 5px;
+  margin: 20px;
 }
 </style>

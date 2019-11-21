@@ -6,8 +6,7 @@
 
 
 <style lang="scss">
-* {background-color:#d2d4cb;}
-* {margin: 20px;}
+body {background-color:#d2d4cb; margin: 100px;}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -15,12 +14,5 @@
   text-align: center;
   color: #2c3e50;
   background-color: #d2d4cb;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-  }
 }
 </style>
