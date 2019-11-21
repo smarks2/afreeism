@@ -6,7 +6,7 @@
 
 
 <style lang="scss">
-* {background-color:#98e6ed;}
+* {background-color:#d2d4cb;}
 * {margin: 20px;}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -14,7 +14,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: rgb(170, 238, 238);
+  background-color: #d2d4cb;
 }
 #nav {
   padding: 30px;

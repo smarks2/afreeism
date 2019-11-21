@@ -79,14 +79,14 @@ p {
 h1 {
   text-align: left;
   color: #000000;
-  background-color: yellow;
+  background-color: #a5b564;
   text-align: center;
 }
 table, tr, th, td {
   border: 1px solid black;
   width: 100%;
   text-align: center;
-  background-color: yellow;
-  padding: 20px;
+  background-color: #a5b564;
+  padding: 5px;
 }
 </style>
