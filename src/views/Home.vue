@@ -1,6 +1,17 @@
 <template>
   <div class="home">
-    <h1>The Afreeist Society</h1>
+    <table>
+      <tr>
+        <td>
+          <h1>The Afreeist Society</h1>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>Join Us!</td>
+      </tr>
+    </table>
     <p>
       The Afreeist Society is a collection of individuals interested in the ideas and concepts
       of Afreeism.
@@ -50,7 +61,7 @@
       <button>Faq</button>
     </routerLink>
     <br />
-    <routerLink :to="{name: 'Handbook/C00A_Contents'}">Contents</routerLink>
+    <routerLink :to="{name: 'C00A_Contents'}">Contents</routerLink>
   </div>
 </template>
 
@@ -64,5 +75,18 @@ export default {
 p {
   text-align: left;
   color: #000000;
+}
+h1 {
+  text-align: left;
+  color: #000000;
+  background-color: yellow;
+  text-align: center;
+}
+table, tr, th, td {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  background-color: yellow;
+  padding: 20px;
 }
 </style>

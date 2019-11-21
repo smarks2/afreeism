@@ -7,6 +7,7 @@
 
 <style lang="scss">
 * {background-color:#98e6ed;}
+* {margin: 20px;}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
