@@ -9,8 +9,9 @@
     </table>
     <table>
       <tr>
-        <th>Join Us!</th>
-        <th>Newsletter</th>
+        <td>Newsletter</td>
+        <td>Blog</td>
+        <td>Join Us!</td>
       </tr>
     </table>
     <p>
@@ -91,4 +92,7 @@ table, tr, th, td {
   padding: 5px;
   margin: 20px;
 }
+td {
+  width: 25%;
+  }
 </style>
