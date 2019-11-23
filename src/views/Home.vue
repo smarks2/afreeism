@@ -4,6 +4,8 @@
       <tr>
         <td>
           <h1>The Afreeist Society</h1>
+          <p style="text-align: center"><b>WEBSITE 
+          UNDER CONSTRUCTION</b></p>
         </td>
       </tr>
     </table>
@@ -15,55 +17,56 @@
       </tr>
     </table>
     <p>
-      The Afreeist Society is a collection of individuals interested in the ideas and concepts
-      of Afreeism.
-    </p>
-    <p>
-      <b>What is afreeism?</b>
-    </p>
-    <p>
-      Afreeism (pronounced ay'-free-ism) posits that the world is best described as causally
-      or stochastically deterministic and that this implies the absence of free will.
-    </p>
-    <p>
-      <b>What are the implications of afreeism?</b>
-    </p>
-    <p>
-      Without free will there can be no moral responsibility for one's past actions. That is,
-      in Afreeism, there is no concept of desert. No one deserves either punishment or rewards.
-      If we do punish or reward, it has to be justified by something other than the notion
-      that a person deserves punishment or reward. This idea that no one deserves anything
-      affects how we envision social
-      policy and our own personal philosophy. For example, afreeism implies:
-    </p>
-    <p>
-      1. Our notion of crime and punishment should not be based on retribution, but rather on
-      deterrence, rehabilitation, and (occasionally) on separation.
-    </p>
-    <p>
-      2. Our notion of a fair distribution of society's benefits should not be based on what people
-      deserve, but rather on a bedrock of equality modified to the extent necessary to provide
-      incentives.
-    </p>
-    <p>3. Our relationships with other people should be based on tolerance.</p>
-    <p>
-      4. Our own lives should be animated by engagement, but also by self-acceptance. Guilt,
-      regret, remorse, shame, do not make sense in a deterministic world.
-    </p>
-    <p></p>
-    <p></p>
+      Afreeism (ay'-free-izm) is a simple idea.  Yet it is an idea so powerful that, if fully embraced, 
+      it radically alters the 
+      way we see the world. It changes how we view each other and how we treat one another. 
+      It shakes up our conceptions of the good society and of good social policy. It makes 
+      us better people, removes impediments to our own happiness, and increases the joy we 
+      find in life. It is an idea based in science and reason, requiring no leaps of faith. 
+      It is an idea whose origins date back over three millennia, and at the same time is 
+      rooted in modern scientific discovery. It is not an easy idea. It requires abandoning 
+      a worldview that we probably have never questioned, a worldview that we take for granted, 
+      a worldview that affects our actions on a daily basis.
+  </p>     
+  <p>    
+      What is this radical yet ancient idea? It is simply this: we have no free will. 
+      The universe is a web of causation dating back to the beginning of time. Our 
+      actions are a part of this web. Although we feel that we are making decisions 
+      on the basis of free will, this is just an illusion. We could not have acted 
+      differently than we did.
+  </p>     
+  <p>
+      The implications of afreeism are profound.  Jettisoning the notion of free will means that:
+  </p>     
+  <p>
+      •	We will support social policies that are both more humane and more effective. 
+      This applies particularly in the area of criminal justice, but also to many other 
+      areas of government policy. 
+   </p>     
+  <p>
+      •	We will act more generously 
+      towards other people in our personal lives. In particular, we will become more tolerant and more 
+      accepting of other people, their life situations, and their actions. 
+  </p>     
+  <p> 
+      •	We will improve our attitude towards ourselves 
+      by mitigating feelings of guilt, regret, remorse, and self-blame, all of which are impediments 
+      to a joyful life. 
+   </p>     
+  <p>
+      The Afreeist Society is a collection of individuals interested in the ideas and ideals
+      of afreeism.
+  </p>   
     <p>
       <b>How can I learn more about afreesim?</b>
     </p>
     <p>
       If you
-      wish to explore these ideas, a good starting point is the Afreeist Handbook.
+      wish to explore these ideas, a good starting point is the 
+      <routerLink :to="{name: 'C00A_Contents'}">Afreeist Handbook</routerLink>.  The Handbook explains why free will is an illusion,
+      discusses how this affects personal autonomy and moral responsibility, explores the history of afreeism (the roots go back
+      several thousand years), examines the social policy implications, and explores how afreeism can change our personal lives for the better. 
     </p>
-    <routerLink :to="{name: 'Faq'}">
-      <button>Faq</button>
-    </routerLink>
-    <br />
-    <routerLink :to="{name: 'C00A_Contents'}">Contents</routerLink>
   </div>
 </template>
 
@@ -94,5 +97,5 @@ table, tr, th, td {
 }
 td {
   width: 25%;
-  }
+}
 </style>
