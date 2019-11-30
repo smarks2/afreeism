@@ -4,7 +4,6 @@
   </div>
 </template>
 
-
 <style lang="scss">
 body {background-color:#d2d4cb; margin: 100px;}
 #app {
@@ -12,7 +11,7 @@ body {background-color:#d2d4cb; margin: 100px;}
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
   background-color: #d2d4cb;
 }
 </style>

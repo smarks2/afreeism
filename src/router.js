@@ -1,8 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/views/Home.vue';
-import Faq from '@/views/Faq.vue';
-import C00A_Contents from '@/views/Handbook/C00A_Contents.vue';
+import Afreeist_Handbook from '@/views/Afreeist_Handbook.vue';
+import Newsletter from '@/views/Newsletter.vue';
+import Blog from '@/views/Blog.vue';
+import JoinUs from '@/views/JoinUs.vue';
 Vue.use(Router);
 export default new Router({
   mode: 'history',
@@ -14,14 +16,28 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/faq',
-      name: 'Faq',
-      component: Faq,
+      path: '/Home',
+      name: 'home',
+      component: Home,
+    },{
+      path: '/Afreeist_Handbook',
+      name: 'Afreeist_Handbook',
+      component: Afreeist_Handbook,
     },
     {
-      path: '/Handbook/C00A_Contents',
-      name: 'C00A_Contents',
-      component: C00A_Contents,
+      path: '/Newsletter',
+      name: 'Newsletter',
+      component: Newsletter,
+    },
+    {
+      path: '/Blog',
+      name: 'Blog',
+      component: Blog,
+    },
+    {
+      path: '/JoinUs',
+      name: 'JoinUs',
+      component: JoinUs,
     },
   ],
 });

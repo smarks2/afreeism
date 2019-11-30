@@ -1,19 +1,19 @@
 <template>
   <div class="home">
-    <table>
+     <table>
       <tr>
         <td>
           <h1>The Afreeist Society</h1>
-          <p style="text-align: center"><b>WEBSITE 
-          UNDER CONSTRUCTION</b></p>
         </td>
       </tr>
     </table>
     <table>
       <tr>
-        <td>Newsletter</td>
-        <td>Blog</td>
-        <td>Join Us!</td>
+        <td> <routerLink :to="{name: 'Home'}">Home</routerLink></td>
+        <td> <routerLink :to="{name: 'Afreeist_Handbook'}">The Afreeist Handbook</routerLink></td>        
+        <td><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></td>
+        <td><routerLink :to="{name: 'Blog'}">Blog</routerLink></td>
+        <td><routerLink :to="{name: 'JoinUs'}">Join Us!</routerLink></td>
       </tr>
     </table>
     <p>
@@ -87,7 +87,7 @@
     <p>
       If you
       wish to explore these ideas, a good starting point is the 
-      <routerLink :to="{name: 'C00A_Contents'}">Afreeist Handbook</routerLink>.  The Handbook explains why free will is an illusion,
+      <routerLink :to="{name: 'Afreeist_Handbook'}">Afreeist Handbook</routerLink>.  The Handbook explains why free will is an illusion,
       discusses how this affects personal autonomy and moral responsibility, explores the history of afreeism (the roots go back
       several thousand years), examines the social policy implications, and explores how afreeism can change our personal lives for the better. 
     </p>
