@@ -16,10 +16,6 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/Home',
-      name: 'home',
-      component: Home,
-    },{
       path: '/Afreeist_Handbook',
       name: 'Afreeist_Handbook',
       component: Afreeist_Handbook,

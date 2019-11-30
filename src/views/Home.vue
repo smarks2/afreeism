@@ -9,7 +9,6 @@
     </table>
     <table>
       <tr>
-        <td> <routerLink :to="{name: 'Home'}">Home</routerLink></td>
         <td> <routerLink :to="{name: 'Afreeist_Handbook'}">The Afreeist Handbook</routerLink></td>        
         <td><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></td>
         <td><routerLink :to="{name: 'Blog'}">Blog</routerLink></td>
