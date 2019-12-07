@@ -11,14 +11,16 @@
     <table>
       <tr>
         <td> <routerLink :to="{name: 'Home'}">Home</routerLink></td>
-        <td> <routerLink :to="{name: 'Afreeist_Handbook'}">The Afreeist Handbook</routerLink></td>        
+        <td> <routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></td>        
         <td><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></td>
         <td><routerLink :to="{name: 'Blog'}">Blog</routerLink></td>
-        <td><routerLink :to="{name: 'JoinUs'}">Join Us!</routerLink></td>
       </tr>
     </table>
     <p>
-     UNDER CONSTRUCTION
+     Membership in the Afreeist Society is free.  All you have to have is an open mind and
+     some curiosity.  Joining may mean more in the future, but for now it just gets you on our 
+     mailing list.  If you wish to be on the mailing list, please send an email to 
+     smarks@bu.edu.  Thanks!
     </p>
 
   </div>

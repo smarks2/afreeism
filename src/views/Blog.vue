@@ -10,14 +10,14 @@
     </table>
     <table>
       <tr>
-        <td> <routerLink :to="{name: 'Afreeist_Handbook'}">The Afreeist Handbook</routerLink></td>        
+        <td> <routerLink :to="{name: 'Home'}">Home</routerLink></td>
+        <td> <routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></td>      
         <td><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></td>
-        <td><routerLink :to="{name: 'Blog'}">Blog</routerLink></td>
         <td><routerLink :to="{name: 'JoinUs'}">Join Us!</routerLink></td>
       </tr>
     </table>
     <p>
-     UNDER CONSTRUCTION
+    We have yet to blog.  When we do, it will appear here.
     </p>
 
   </div>

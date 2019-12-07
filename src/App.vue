@@ -11,7 +11,7 @@ body {background-color:#d2d4cb; margin: 100px;}
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #000000;
+  color: #red;
   background-color: #d2d4cb;
 }
 </style>
