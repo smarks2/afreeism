@@ -6,6 +6,21 @@
 
 <style lang="scss">
 body {background-color:#d2d4cb;}
+a {
+  text-decoration:none
+  }
+a:link {
+  color:blue
+  }
+a:visited {
+  color:blue;
+}
+a:hover {
+  color:rgb(53, 1, 1);
+}
+a:active {
+  color:yellow;
+}
 .ASTitle {
   background-color:#63c7c2;
   font-size:35px;
