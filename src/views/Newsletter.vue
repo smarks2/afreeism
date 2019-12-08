@@ -1,21 +1,16 @@
 <template>
   <div class="home">
-     <table>
-      <tr>
-        <td>
-          <h1>The Afreeist Society</h1>
-          <h2>Newsletter</h2>
-        </td>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td> <routerLink :to="{name: 'Home'}">Home</routerLink></td>
-        <td> <routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></td>       
-        <td><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></td>
-        <td><routerLink :to="{name: 'Blog'}">Blog</routerLink></td>
-      </tr>
-    </table>
+      <div class="ASTitle">
+      The Afreeist Society
+      <div>Newsletter</div>
+    </div>
+    <div class="TopMenu">
+      <div><routerLink :to="{name: 'Home'}">Home</routerLink></div>
+      <div><routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></div>
+      <div><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></div>
+      <div><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
+      <div><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>
+    </div>
     <p>
      The newsletter has not been published yet.  Please check back later.
     </p>

@@ -1,21 +1,16 @@
 <template>
   <div class="home">
-     <table>
-      <tr>
-        <td>
-          <h1>The Afreeist Society</h1>
-          <h2>Explore Afreeism</h2>
-        </td>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td> <routerLink :to="{name: 'Home'}">Home</routerLink></td>
-        <td><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></td>
-        <td><routerLink :to="{name: 'Blog'}">Blog</routerLink></td>
-        <td><routerLink :to="{name: 'JoinUs'}">Join Us!</routerLink></td>
-      </tr>
-    </table>
+      <div class="ASTitle">
+      The Afreeist Society
+      <div>Explore Afreeism</div>
+    </div>
+    <div class="TopMenu">
+      <div><routerLink :to="{name: 'Home'}">Home</routerLink></div>
+      <div><routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></div>
+      <div><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></div>
+      <div><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
+      <div><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>
+    </div>
     <p>
      Afreeism is not a new idea.  Its roots go back thousands of years.
      This website provides two ways to explore the ideas and ideals of afreeism.
@@ -45,7 +40,7 @@
     </p>
     <p>
       The web tutorial provides a quicker introduction into the ideas and ideals of afreeism.  The web tutorial can
-      be accessed <routerLink :to="{name: 'A1_Contents'}">here</routerLink>.
+      be accessed <routerLink :to="{name: 'Contents'}">here</routerLink>.
     </p>
   </div>
 </template>

@@ -1,20 +1,15 @@
 <template>
   <div>
-     <table>
-      <tr>
-        <td>
-          <h1>The Afreeist Society</h1>
-        </td>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td> <routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></td>        
-        <td><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></td>
-        <td><routerLink :to="{name: 'Blog'}">Blog</routerLink></td>
-        <td><routerLink :to="{name: 'JoinUs'}">Join Us!</routerLink></td>
-      </tr>
-    </table>
+      <div class="ASTitle">
+      The Afreeist Society
+    </div>
+    <div class="TopMenu">
+      <div><routerLink :to="{name: 'Home'}">Home</routerLink></div>
+      <div><routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></div>
+      <div><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></div>
+      <div><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
+      <div><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>
+    </div>
     <p>
     <b>What is afreeism?</b>
     <p>
@@ -80,18 +75,15 @@ export default {
   name: 'home',
 };
 </script>
-<style>
-p {
-  text-align: left;
-  color:red;
-}
+<style scoped>
 h1 {
   text-align: left;
   background-color: #63c7c2;
   text-align: center;
   color: green;
 }
-table, tr {
+table,
+tr {
   border: 1px solid black;
   width: 100%;
   text-align: center;
@@ -106,4 +98,5 @@ td {
   background-color: #63c7c2;
   padding: 5px;
   margin: 20px;
-}</style>
+}
+</style>

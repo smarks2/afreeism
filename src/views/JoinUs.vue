@@ -1,21 +1,16 @@
 <template>
   <div class="home">
-     <table>
-      <tr>
-        <td>
-          <h1>The Afreeist Society</h1>
-          <h2>Join Us!</h2>
-        </td>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td> <routerLink :to="{name: 'Home'}">Home</routerLink></td>
-        <td> <routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></td>        
-        <td><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></td>
-        <td><routerLink :to="{name: 'Blog'}">Blog</routerLink></td>
-      </tr>
-    </table>
+      <div class="ASTitle">
+      The Afreeist Society
+      <div>Join Us!</div>
+    </div>
+    <div class="TopMenu">
+      <div><routerLink :to="{name: 'Home'}">Home</routerLink></div>
+      <div><routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></div>
+      <div><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></div>
+      <div><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
+      <div><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>
+    </div>
     <p>
      Membership in the Afreeist Society is free.  All you have to have is an open mind and
      some curiosity.  Joining may mean more in the future, but for now it just gets you on our 
