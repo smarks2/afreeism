@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div class="ASTitle">
+    <div class="ASTitle">
       The Afreeist Society
     </div>
     <div class="TopMenu">

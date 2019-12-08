@@ -1,21 +1,16 @@
 <template>
   <div class="home">
-     <table>
-      <tr>
-        <td>
-          <h1>The Afreeist Society</h1>
-        </td>
-      </tr>
-    </table>
-   
-      <table>
-      <tr>
-        <td> <routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></td>        
-        <td><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></td>
-        <td><routerLink :to="{name: 'Blog'}">Blog</routerLink></td>
-        <td><routerLink :to="{name: 'JoinUs'}">Join Us!</routerLink></td>
-      </tr>
-    </table>
+    <div class="ASTitle">
+      The Afreeist Society
+      <div>Who Are We?</div>
+    </div>
+    <div class="TopMenu">
+      <div><routerLink :to="{name: 'Home'}">Home</routerLink></div>
+      <div><routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></div>
+      <div><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></div>
+      <div><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
+      <div><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>
+    </div>
     <p>
     <b>Who are we?</b>
     </p>    
