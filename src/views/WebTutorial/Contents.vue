@@ -53,29 +53,4 @@ export default {
 };
 </script>
 <style>
-p {
-  text-align: left;
-  color: #000000;
-}
-h1 {
-  text-align: left;
-  color: #000000;
-  background-color: #63c7c2;
-  text-align: center;
-}
-table, tr {
-  border: 1px solid black;
-  width: 100%;
-  text-align: center;
-  background-color: #63c7c2;
-  padding: 5px;
-  margin: 20px;
-}
-td {
-  border: 1px solid black;
-  width: 25%;
-  text-align: center;
-  background-color: #63c7c2;
-  padding: 5px;
-  margin: 20px;
-}</style>
+</style>

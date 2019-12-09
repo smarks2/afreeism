@@ -1,27 +1,18 @@
 <template>
-  
   <div>
-    <div class="HomePage">
-      <div class="Top"> 
-        <div style="padding:0px 20px;">Login</div>
-        <div style="padding:0px 20px;">Contribute</div>
-      </div>
-      <div class="Logo">
-        <routerLink :to="{name: 'Home'}">
-        <div>The</div>
-        <div>Afreeist</div>
-        <div>Society</div>
-        </routerLink>
-      </div>
-      <div class="Quote">
-          <p style="font-size:24px;">"Tout comprendre, c'est tout perdonner."</p>
-      </div>
-      <div class="TopMen">
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink></div>
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink></div>
-      </div>
-      <div class="Main">
-    <p class="Null">
+    <div class="ASTitle">
+      The Afreeist Society
+    </div>
+    <div class="TopMenu">
+      <div><routerLink :to="{name: 'Home'}">Home</routerLink></div>
+      <div><routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink></div>
+      <div><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></div>
+      <div><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
+      <div><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>
+    </div>
+    <p>
+    <b>What is afreeism?</b>
+    <p>
       Afreeism (ay'-free-izm) is a simple idea.  Yet it is an idea so powerful that, if fully embraced, 
       it radically alters the 
       way we see the world. It changes how we view each other and how we treat one another. 
@@ -67,17 +58,14 @@
   These are just a few of the implications of afreeism.  Afreeism has much to say about our
   place in the universe, our relationship to our fellow beings, and how we want to organize
   society.  To explore afreeism and the Afreeist Society, click please click on one of the
-  following links: </p>
-      </div>
-      <div class="RSidebar" style="padding:20px;">
-        <div style="margin:10px; padding:20px; background-color:white;"><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>
-        <div style="margin:10px; padding:20px; background-color:white;"><routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink></div>
-        <div style="margin:10px; padding:20px; background-color:white;"><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
-      </div>
-      <div class="Bottom">
-        Bottom
-      </div>
-    </div>
+  following links:
+  </p> 
+    <p>
+  <routerLink :to="{name: 'Explore'}">Explore Afreeism</routerLink>
+    </p> 
+      <p>
+  <routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink>
+    </p> 
   </div>
 </template>
 
@@ -88,67 +76,4 @@ export default {
 };
 </script>
 <style scoped>
-.HomePage {
-  display:grid;
-  grid-template-columns: 200px auto 200px;
-  grid-template-rows: 30px auto auto auto 30px;
-  grid-template-areas:
-    'Top Top Top'
-    'Logo Quote RSidebar'
-    'TopMen TopMen RSidebar'
-    'Main Main RSidebar'
-    'Bottom Bottom Bottom'
-}
-.Top {
-  grid-area: Top;
-  background-color:#074477;
-  display:flex;
-  justify-content:flex-end;
-  color:white;
-}
-.Logo {
-  grid-area: Logo;
-  background-color:white;
-  font: 36px "Times New Roman";
-  border-style:solid;
-  border-color:#caebf2;
-  padding:20px;
-}
-.Quote {
-  grid-area: Quote;
-  background-color:white ; 
-  font: 18px "Times New Roman";
-  text-align: center;
-  line-height: 100px;
-  border-style:solid;
-  border-color:#caebf2;
-  display:flex;
-  align-items:center;
-  justify-content: center;
-}
-.TopMen {
-  display:flex;
-  justify-content:flex-start;
-  grid-area: TopMen;
-  background-color:#F5DAA4;
-  text-align:left;
-}
-.Main {
-  grid-area: Main;
-  background-color:efefef;
-  padding: 0px 30px;
-}
-.RSidebar {
-  grid-area: RSidebar;
-  background-color:#074477;
-}
-.Bottom {
-  grid-area: Bottom;
-  background-color:#074477;
-}
-.Tolstoy {
-  display:flex;
-  align-items:flex-end;
-  padding:0px;
-}
 </style>

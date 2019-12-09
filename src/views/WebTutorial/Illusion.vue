@@ -12,7 +12,7 @@
       <div><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>
     </div>
     <p>
-    We have yet to blog.  When we do, it will appear here.
+    
     </p>
   </div>
 </template>
@@ -21,7 +21,7 @@
 // @ is an alias to /src
 
 export default {
-  name: 'Blog',
+  name: 'Illusion',
 };
 </script>
 <style scoped>

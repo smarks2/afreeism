@@ -7,6 +7,7 @@ import Blog from '@/views/Blog.vue';
 import JoinUs from '@/views/JoinUs.vue';
 import Who_Are_We from '@/views/Who_Are_We.vue';
 import Contents from '@/views/WebTutorial/Contents';
+import Illusion from '@/views/WebTutorial/Illusion';
 Vue.use(Router);
 export default new Router({
   mode: 'history',
@@ -47,5 +48,11 @@ export default new Router({
       name: 'Contents',
       component: Contents,
     },
+    {
+      path: '/WebTutorial/Illusion',
+      name: 'Illusion',
+      component: Illusion,
+    },
+   
   ],
 });
