@@ -25,6 +25,7 @@
         <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Learn About the Afreeist Society</routerLink></div>
       </div>
       <div class="Main">
+        <div class="TopicAnswers">
     <p class="Null">
       Afreeism (ay'-free-izm) is a simple idea.  Yet it is an idea so powerful that, if fully embraced, 
       it radically alters the 
@@ -71,6 +72,7 @@
   These are just a few of the implications of afreeism.  Afreeism has much to say about our
   place in the universe, our relationship to our fellow beings, and how we want to organize
   society.</p>
+  </div>
       </div>
       <div class="RSidebar" style="padding:20px;">
         <div style="margin:10px; padding:20px; background-color:white;"><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>

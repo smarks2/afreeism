@@ -99,12 +99,12 @@ a:active {
   display:flex;
   justify-content:flex-start;
   grid-area: TopMen;
-  background-color:#F5DAA4;
+  background-color:#caebf2;
   text-align:left;
 }
 .Main {
   grid-area: Main;
-  background-color:#F5DAA4;
+  background-color:#caebf2;
   padding: 10px;
 
 }
@@ -125,7 +125,7 @@ a:active {
   font-size:36px;
 }
 .TopicCategories {
-background-color:#F5DAA4;
+background-color:#caebf2;
 display:grid;
 grid-template-columns: auto auto auto;
 grid-template-rows: auto;
@@ -168,6 +168,7 @@ border-top-right-radius:25px;
   border-left-style:solid;
   border-right-style:solid;
   border-bottom-style:solid;
+  border-top-style:solid;
   padding:20px;
   background-color:white;
 }
