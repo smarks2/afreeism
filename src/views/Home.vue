@@ -21,8 +21,8 @@
           <div style="font-size:24px; margin:0px; padding:0px">----Tolstoy, War and Peace</div>        </div>
       </div>
       <div class="TopMen">
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink></div>
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink></div>
+        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">Learn About Afreeism</routerLink></div>
+        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Learn About the Afreeist Society</routerLink></div>
       </div>
       <div class="Main">
     <p class="Null">

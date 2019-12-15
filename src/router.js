@@ -6,9 +6,12 @@ import Newsletter from '@/views/Newsletter.vue';
 import Blog from '@/views/Blog.vue';
 import JoinUs from '@/views/JoinUs.vue';
 import Who_Are_We from '@/views/Who_Are_We.vue';
-import Contents from '@/views/WebTutorial/Contents';
-import Illusion from '@/views/WebTutorial/Illusion';
-import Contents2 from '@/views/WebTutorial/Contents2';
+import Contents from '@/views/Topics/Contents';
+import Illusion from '@/views/Topics/Illusion';
+import Contents2 from '@/views/Topics/Contents2';
+import Basics from '@/views/Topics/Basics';
+import Policy from '@/views/Topics/Policy';
+import Personal from '@/views/Topics/Personal';
 Vue.use(Router);
 export default new Router({
   mode: 'history',
@@ -45,9 +48,24 @@ export default new Router({
       component: Who_Are_We,
     },
     {
-      path: '/WebTutorial/Contents',
+      path: '/Topics/Contents',
       name: 'Contents',
       component: Contents,
+    },
+    {
+      path: '/Topics/Basics',
+      name: 'Basics',
+      component: Basics,
+    },
+    {
+      path: '/Topics/Policy',
+      name: 'Policy',
+      component: Policy,
+    },
+    {
+      path: '/Topics/Personal',
+      name: 'Personal',
+      component: Personal,
     },
     {
       path: '/WebTutorial/Illusion',

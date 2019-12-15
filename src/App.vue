@@ -6,7 +6,7 @@
 
 <style lang="scss">
 body {background-color:#d2d4cb;}
-p {text-align:left; color:#000000;}
+p {text-align:left; color:black;}
 a {
   text-decoration:none
   }
@@ -21,23 +21,6 @@ a:hover {
 }
 a:active {
   color:yellow;
-}
-.ASTitle {
-  background-color:#63c7c2;
-  font-size:35px;
-  margin: 20px 10px 5px;
-  padding: 5px;
-  border: 1px solid black;
-  color: blue;
-}
-.ASTitle > div {
-  font-size: 25px;
-  color:indigo;
-}
-.TopMenu {
-  display:flex;
-  justify-content: space-between;
-  margin:10px;
 }
 .TopMenu > div {
   font-size: 16px;
@@ -121,8 +104,9 @@ a:active {
 }
 .Main {
   grid-area: Main;
-  background-color:white;
-  padding: 0px 30px;
+  background-color:#F5DAA4;
+  padding: 10px;
+
 }
 .RSidebar {
   grid-area: RSidebar;
@@ -139,5 +123,52 @@ a:active {
 }
 .PageTitle {
   font-size:36px;
+}
+.TopicCategories {
+background-color:#F5DAA4;
+display:grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto;
+}
+.CatActive {
+padding:5px;
+background-color:white;
+height:30px;
+border-top-style:solid;
+border-left-style:solid;
+border-right-style:solid;
+border-top-left-radius:25px;
+border-top-right-radius:25px;
+}
+.CatInactive {
+background-color:#ed8c85;
+padding:5px;
+border-top-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-right-style:solid;
+border-top-left-radius:25px;
+border-top-right-radius:25px;
+}
+.TopicGrid {
+  display:grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  border-left-style:solid;
+  border-right-style:solid;
+  background-color:white;
+}
+.Topic {
+  background-color:beige;
+  border-radius:25px;
+  padding:20px;
+  margin:10px;
+}
+.TopicAnswers {
+  border-left-style:solid;
+  border-right-style:solid;
+  border-bottom-style:solid;
+  padding:20px;
+  background-color:white;
 }
 </style>
