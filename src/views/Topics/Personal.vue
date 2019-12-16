@@ -5,19 +5,19 @@
         <div style="padding:0px 20px;">Login</div>
         <div style="padding:0px 20px;">Contribute</div>
       </div>
-      <div class="Logo">
+     <div class="Logo">
         <routerLink :to="{name: 'Home'}">
-        <div>The</div>
-        <div>Afreeist</div>
-        <div>Society</div>
+        <div class="LogoText">The</div>
+        <div class="LogoText">Afreeist</div>
+        <div class="LogoText">Society</div>
         </routerLink>
       </div>
-      <div class="Quote">
-        <span id="Top" class="PageTitle">Topics in Afreeism</span>
+      <div class="PageTitle">
+        <span id="Top">Afreeist Concepts and Ideals</span>
       </div>
       <div class="TopMen">
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">Learn About Afreeism</routerLink></div>
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Learn About the Afreeist Society</routerLink></div>
+        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink></div>
+        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink></div>
       </div>
       
       <div class="Main">
@@ -28,16 +28,16 @@
         </div>
         <div class="TopicGrid">
           <div class="Topic">
-          <a href="#What_Is_Afreeism">Humility</a>
+          Humility
           </div>
           <div class="Topic">
-          <a href="#Why_No_Free_Will">Wonder</a>
+          Wonder
           </div>
           <div class="Topic">
-          <a href="#What_Is_Determinism">Tolerance</a>
+          Tolerance
           </div>
           <div class="Topic">
-          <a href="#What_Is_Afreeism">Self-Acceptance</a>
+          Self-Acceptance
           </div>
           <div class="Topic">
           Activism
@@ -50,34 +50,8 @@
           </div>
          
         </div>
-        <div class="TopicAnswers">
-        <p id="What_Is_Afreeism"><b>What is afreeism?</b></p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p><a href="#Top">Back to topics.</a></p>
-        <p id="Why_No_Free_Will"><b>Why is there no free will?</b></p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p><a href="#Top">Back to topics.</a></p>
-        <p id="What_Is_Determinism"><b>What is determinism?</b></p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p>blah blah</p>
-        <p><a href="#Top">Back to topics.</a></p>
+        <div class="MainTextTopics">
+        
         </div>
       </div>
       <div class="RSidebar" style="padding:20px;">

@@ -8,24 +8,24 @@
       </div>
       <div class="Logo">
         <routerLink :to="{name: 'Home'}">
-        <div>The</div>
-        <div>Afreeist</div>
-        <div>Society</div>
+        <div class="LogoText">The</div>
+        <div class="LogoText">Afreeist</div>
+        <div class="LogoText">Society</div>
         </routerLink>
       </div>
-      <div class="Quote">
+      <div class="PageTitle">
         <div style="height:30px; display:flex; flex-direction:column; justify-content:center;">
           <div style="font-size:24px; margin:0px; padding:0px; height:40px;">
             "Tout comprendre, c'est tout pardonner."
           </div>
-          <div style="font-size:24px; margin:0px; padding:0px">----Tolstoy, War and Peace</div>        </div>
+        <div style="font-size:18px; margin:0px; padding:0px; text-align:right">--Tolstoy, War and Peace</div>        </div>
       </div>
       <div class="TopMen">
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">Learn About Afreeism</routerLink></div>
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Learn About the Afreeist Society</routerLink></div>
+        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink></div>
+        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink></div>
       </div>
       <div class="Main">
-        <div class="TopicAnswers">
+        <div class="MainText">
     <p class="Null">
       Afreeism (ay'-free-izm) is a simple idea.  Yet it is an idea so powerful that, if fully embraced, 
       it radically alters the 

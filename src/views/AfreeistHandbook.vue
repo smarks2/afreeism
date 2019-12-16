@@ -1,5 +1,5 @@
 <template>
-  <div>
+   <div>
     <div class="HomePage">
       <div class="Top"> 
         <div style="padding:0px 20px;">Login</div>
@@ -13,16 +13,28 @@
         </routerLink>
       </div>
       <div class="PageTitle">
-        <span>Newsletter</span>
+        <span>The Afreeist Handbook</span>
       </div>
       <div class="TopMen">
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink></div>
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink></div>
-      </div>
+        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">What Is Afreeism</routerLink></div>
+        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink></div>      </div>
       <div class="Main">
         <div class="MainText">
           <p>
-            We haven't published a newsletter yet.  When we do, it will appear here.
+            The Afreeist Handbook presents the ideas and ideals of afreeism.
+          </p>
+          <p style="text-indent:20px">
+               View the Afreeist Handbood <a href="Afreeist_Handbook.pdf">here</a>.
+          </p>
+          <p style="text-indent:20px">
+            Download the Afreeist Handbook <a href="Afreeist_Handbook.pdf" download>here</a>.
+          </p>
+          <p>
+            Because the ideas 
+            afreeism are based on fact and reason, and because none of us have a monopoly on 
+            the truth, the Afreeist Handbook is, and always will be, a work in progress.  We
+            invite your thoughts, your comments, your criticisms, about the ideas in the Handbook.
+            Please send these to smarks@bu.edu.
           </p>
         </div>
       </div>
@@ -42,9 +54,9 @@
 // @ is an alias to /src
 
 export default {
-  name: 'Newsletter',
+  name: 'AfreeistHandbook',
 };
 </script>
 <style scoped>
-p {text-align:left; color:#000000;}
+p {text-align:left;}
 </style>

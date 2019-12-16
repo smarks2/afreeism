@@ -7,13 +7,13 @@
       </div>
       <div class="Logo">
         <routerLink :to="{name: 'Home'}">
-        <div>The</div>
-        <div>Afreeist</div>
-        <div>Society</div>
+        <div class="LogoText">The</div>
+        <div class="LogoText">Afreeist</div>
+        <div class="LogoText">Society</div>
         </routerLink>
       </div>
-      <div class="Quote">
-          <p class="PageTitle">Who Are We?</p>
+      <div class="PageTitle">
+          <span>Who Are We?</span>
       </div>
       <div class="TopMen">
         <div style="font-size:18px; padding:10px 30px;">
@@ -24,34 +24,34 @@
         </div>
       </div>
       <div class="Main">
-        <p>
+        <div class="MainText">
+          <p>
             <b>Who are we?</b>
-    </p>    
-    <p>
-      The Afreeist Society is a collection of individuals interested in the ideas and ideals
-      of afreeism.  The goals of the Afreeist Society are:
-    </p>   
-    <p>
-    a. To explain afreeism.
-    </p>
-    <p>
-    b. To stimulate thinking and research about afreeism.
-    </p>   
-    <p>
-      c. To promote the values and ideals of afreeism.
-    </p> 
-    <p>
-      <b>How can I learn more about afreesim?</b>
-    </p>
-
-    <p>
-      If you
-      wish to explore these ideas, a good starting point is the Afreeist Handbook which you can find
-      <routerLink :to="{name: 'Explore'}">here</routerLink>.  The Handbook explains why free will is an illusion,
-      discusses how this affects personal autonomy and moral responsibility, explores the history of afreeism (the roots go back
-      several thousand years), examines the social policy implications, and explores how afreeism can change our personal lives for the better. 
-
-        </p>
+          </p>    
+          <p>
+            The Afreeist Society is a collection of individuals interested in the ideas and ideals
+            of afreeism.  The goals of the Afreeist Society are:
+          </p>   
+          <p>
+            a. To explain afreeism.
+          </p>
+          <p>
+            b. To stimulate thinking and research about afreeism.
+          </p>   
+          <p>
+            c. To promote the values and ideals of afreeism.
+          </p> 
+          <p>
+            <b>How can I learn more about afreesim?</b>
+          </p>
+          <p>
+            If you
+            wish to explore these ideas, a good starting point is the Afreeist Handbook which you can find
+            <routerLink :to="{name: 'Explore'}">here</routerLink>.  The Handbook explains why free will is an illusion,
+            discusses how this affects personal autonomy and moral responsibility, explores the history of afreeism (the roots go back
+            several thousand years), examines the social policy implications, and explores how afreeism can change our personal lives for the better. 
+          </p>
+        </div>
       </div>
       <div class="RSidebar" style="padding:20px;">
         <div style="margin:10px; padding:20px; background-color:white;"><routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink></div>

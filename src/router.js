@@ -12,6 +12,7 @@ import Contents2 from '@/views/Topics/Contents2';
 import Basics from '@/views/Topics/Basics';
 import Policy from '@/views/Topics/Policy';
 import Personal from '@/views/Topics/Personal';
+import AfreeistHandbook from '@/views/AfreeistHandbook';
 Vue.use(Router);
 export default new Router({
   mode: 'history',
@@ -76,6 +77,11 @@ export default new Router({
       path: '/WebTutorial/Contents2',
       name: 'Contents2',
       component: Contents2,
+    },
+    {
+      path: '/AfreeistHandbook',
+      name: 'AfreeistHandbook',
+      component: AfreeistHandbook,
     },
   ],
 });
