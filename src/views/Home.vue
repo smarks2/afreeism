@@ -7,11 +7,7 @@
         <div style="padding:0px 20px;">Contribute</div>
       </div>
       <div class="Logo">
-        <routerLink :to="{name: 'Home'}">
-        <div class="LogoText">The</div>
-        <div class="LogoText">Afreeist</div>
-        <div class="LogoText">Society</div>
-        </routerLink>
+        <LogoCode />
       </div>
       <div class="PageTitle">
         <div style="height:30px; display:flex; flex-direction:column; justify-content:center;">
@@ -19,11 +15,8 @@
             "Tout comprendre, c'est tout pardonner."
           </div>
         <div style="font-size:18px; margin:0px; padding:0px; text-align:right">--Tolstoy, War and Peace</div>        </div>
-      </div>
-      <div class="TopMen">
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink></div>
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink></div>
-      </div>
+      </div>      
+      <TopMenCode />
       <div class="Main">
         <div class="MainText">
     <p class="Null">
@@ -80,7 +73,7 @@
         <div style="margin:10px; padding:20px; background-color:white;"><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
       </div>
       <div class="Bottom">
-        Bottom
+        <BottomMenuCode />
       </div>
     </div>
   </div>
@@ -88,9 +81,16 @@
 
 <script>
 // @ is an alias to /src
+import LogoCode from '@/views/LogoCode.vue'
+import BottomMenuCode from '@/views/BottomMenuCode.vue'
+import TopMenCode from '@/views/TopMenCode.vue'
+
 export default {
-  name: 'home',
-};
+  name: 'Home',
+  components:{
+    TopMenCode,LogoCode,BottomMenuCode,
+  },
+}
 </script>
 <style scoped>
 

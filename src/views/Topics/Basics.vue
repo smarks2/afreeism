@@ -6,25 +6,24 @@
         <div style="padding:0px 20px;">Contribute</div>
       </div>
      <div class="Logo">
-        <routerLink :to="{name: 'Home'}">
-        <div class="LogoText">The</div>
-        <div class="LogoText">Afreeist</div>
-        <div class="LogoText">Society</div>
-        </routerLink>
+        <LogoCode />
       </div>
       <div class="PageTitle">
-        <span id="Top">Afreeist Concepts and Ideals</span>
+        <span id="Back">What Is Afreeism?</span>
       </div>
-      <div class="TopMen">
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink></div>
-        <div style="font-size:18px; padding:10px 30px;"><routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink></div>
-      </div>
-      
+      <TopMenCode />      
       <div class="Main">
         <div class="TopicCategories">
           <div class="CatActive">The Basics of Afreeism</div>
           <div class="CatInactive"><routerLink :to="{name: 'Policy'}">Afreeist Social Policy</routerLink></div>
           <div class="CatInactive"><routerLink :to="{name: 'Personal'}">Personal Afreeism</routerLink></div>
+        </div>
+        <div class="TopicGrid">
+          <div style="margin-left:20px">
+            <p>Click on the topics below.  For a more extended and thoughtful discussion of afreeism, 
+              please see the <routerLink :to="{name: 'AfreeistHandbook'}">Afreeist Handbook</routerLink>.
+            </p>
+          </div>
         </div>
         <div class="TopicGrid">
           <div class="Topic">
@@ -53,7 +52,7 @@
         <div class="MainTextTopics">
       
           <div  id="What_Is_Afreeism" class="TopicExplanation" >
-            <p><b>What is afreeism?</b></p>
+            <div class="TopicHeading">What Is Afreeism?</div>
             <p>
               Freeism (free’-izm) is the belief in free will and all that that
               entails.  Afreeism (ay'-free-izm) is the absence of this belief.
@@ -63,11 +62,11 @@
               does an absence of free will imply about how we should act and feel.  This
               website addresses some of these issues.           
             </p>
-            <p><a href="#Top">Back to top.</a></p>
+            <p><a href="#Back">Back to top.</a></p>
           </div>
           <!-- -------------------------------------------------- -->
           <div id="Free_Will_Defined" class="TopicExplanation">
-            <p ><b>Definition of Free Will</b></p>
+            <div class="TopicHeading">Free Will Defined</div>
             <p>
               Here is the Merriam-Webster’s definition of free will:
             </p>
@@ -107,11 +106,11 @@
           on the freedom to do otherwise.  They claim that someone can have free will even if they
           were physically incapable of doing anything else.)
         </p>
-        <p><a href="#Top">Back to top.</a></p>
+        <p><a href="#Back">Back to top.</a></p>
         </div>
         <!-- -------------------------------------------------- -->
         <div id="Why_No_Free_Will" class="TopicExplanation">  
-          <p><b>Why there is no free will</b></p>
+          <div class="TopicHeading">Why There Is No Free Will</div>
         <p>
           Afreeists do not believe in free will because (1) there is no
           evidence indicating that it exists, and (2) there is a mountain of
@@ -134,18 +133,19 @@
           That is, humans are not exempt.  All events, including actions taken
           by humans, are the result of a chain of causation.  This chain reaches
           back to before any of us were born.  Thus, whatever actions we take,
-          we could not have done otherwise.  Thus do not have free will.  The notion 
+          we could not have done otherwise.  Thus we do not have free will.  The notion 
           that we have free will is just an illusion.
         <p>
-          This idea is explored in greater detail in the Afreeist Handbook, in the 
+          This idea is explored in greater detail in the 
+          <routerLink :to="{name: 'AfreeistHandbook'}">Afreeist Handbook</routerLink>, in the 
           Introduction and Chapter 1.
         </p>
 
-        <p><a href="#Top">Back to top.</a></p>
+        <p><a href="#Back">Back to top.</a></p>
         </div>
         <!-- -------------------------------------------------- -->
         <div id="What_Is_Determinism" class="TopicExplanation">
-          <p><b>Determinism</b></p>
+          <div class="TopicHeading">Determinism</div>
         <p>
           Determinism is the idea that events unfold due to causes and that humans are not
           exempt from these laws of the universe.  Some forms of determinism allow for randomness,
@@ -177,15 +177,14 @@
         </p>
         <p>
           Determinism relates to afreeism in the following way.  Determinism is the theory that all events
-          are either caused or random.  There is no evidence that suggests that humans are exempt
-          from the laws of causation.  Since the universe is deterministic, all events turn out the way
-          they do as the result of a chain of causation.  This applies to human actions and decisions.
+          are either caused or random.  Since the universe is deterministic, all events turn out the way
+          they do as the result of a chain of causation.  This applies to human actions and decisions.  
+          That is, humans are not exempt from laws of physics.
           Whatever action a person does, it is a result of a chain of causation and could not be otherwise.
           As a result, humans do not have free will.  This is true even if there is randomness.  Actions
-          that are the result of, say random firing of neurons, cannot be the result free will.  They
-          too are caused.
+          that are the result of, say random firing of neurons, cannot be the result free will.  
         </p>
-                <p><a href="#Top">Back to topics.</a></p>
+                <p><a href="#Back">Back to top.</a></p>
         </div>
         <!-- -------------------------------------------------- -->
         </div>
@@ -196,7 +195,7 @@
         <div style="margin:10px; padding:20px; background-color:white;"><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
       </div>
       <div class="Bottom">
-        Bottom
+        <BottomMenuCode />
       </div>
     </div>
   </div>
@@ -204,10 +203,16 @@
 
 <script>
 // @ is an alias to /src
+import LogoCode from '@/views/LogoCode.vue'
+import BottomMenuCode from '@/views/BottomMenuCode.vue'
+import TopMenCode from '@/views/TopMenCode.vue'
 
 export default {
-  name: 'Basics',
-};
+  name: 'Home',
+  components:{
+    TopMenCode,LogoCode,BottomMenuCode,
+  },
+}
 </script>
 <style scoped>
 p {text-align:left; color:#000000;}

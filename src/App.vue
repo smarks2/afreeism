@@ -50,8 +50,8 @@ a:active {
   margin:0px;
   padding:0px;
   display:grid;
-  grid-template-columns: 200px auto 200px;
-  grid-template-rows: 30px auto auto auto 30px;
+  grid-template-columns: 200px auto 175px;
+  grid-template-rows: 35px auto auto auto 35px;
   grid-template-areas:
     'Top Top Top'
     'Logo PageTitle RSidebar'
@@ -68,7 +68,7 @@ a:active {
 }
 .Logo {
   grid-area: Logo;
-  background-color:#f2d699;
+  background-color:#d5c7eb;
   font: 36px "Times New Roman";
   border-style:solid;
   border-color:#caebf2;
@@ -80,7 +80,7 @@ a:active {
 }
 .PageTitle {
   grid-area: PageTitle;
-  background-color:white ; 
+  background-color:blue; 
   background-image: url(/Stars3.jpg);
   background-repeat: no-repeat;
   background-size:cover;
@@ -113,8 +113,11 @@ a:active {
   background-color:#074477;
 }
 .Bottom {
+  display:flex;
+  justify-content:center;
   grid-area: Bottom;
   background-color:#074477;
+  height: 50px;
 }
 .Tolstoy {
   display:flex;
@@ -142,7 +145,7 @@ border-top-left-radius:25px;
 border-top-right-radius:25px;
 }
 .CatInactive {
-background-color:#eccdcb;
+background-color:beige;
 padding:5px;
 border-top-style:solid;
 border-bottom-style:solid;
@@ -166,6 +169,11 @@ border-top-right-radius:25px;
   margin:10px;
   text-align:center;
 }
+.TopicHeading {
+  text-align:center;
+  font-variant:small-caps;
+  color:#b04128;
+}
 .TopicExplanation {
   border:solid;
   margin-bottom:10px;
@@ -175,7 +183,7 @@ border-top-right-radius:25px;
 .MainText {
   border:solid;
   padding:20px;
-  background-color:white;
+  background-color:ivory;
   min-height:200px;  
 }
 .MainTextTopics {

@@ -6,23 +6,12 @@
         <div style="padding:0px 20px;">Contribute</div>
       </div>
       <div class="Logo">
-        <routerLink :to="{name: 'Home'}">
-        <div class="LogoText">The</div>
-        <div class="LogoText">Afreeist</div>
-        <div class="LogoText">Society</div>
-        </routerLink>
+        <LogoCode />
       </div>
       <div class="PageTitle">
           <span>Who Are We?</span>
       </div>
-      <div class="TopMen">
-        <div style="font-size:18px; padding:10px 30px;">
-          <routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink>
-        </div>
-        <div style="font-size:18px; padding:10px 30px;">
-          <routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink>
-        </div>
-      </div>
+      <TopMenCode />
       <div class="Main">
         <div class="MainText">
           <p>
@@ -46,10 +35,15 @@
           </p>
           <p>
             If you
-            wish to explore these ideas, a good starting point is the Afreeist Handbook which you can find
-            <routerLink :to="{name: 'Explore'}">here</routerLink>.  The Handbook explains why free will is an illusion,
-            discusses how this affects personal autonomy and moral responsibility, explores the history of afreeism (the roots go back
-            several thousand years), examines the social policy implications, and explores how afreeism can change our personal lives for the better. 
+            wish to explore these ideas, a good starting point is 
+            <routerLink :to="{name: 'Explore'}">here</routerLink>, where you can find links to
+            explanations of afreeist concepts and ideals and also to the Afreeist Handbook.  
+            These resources explain why free will is an illusion,
+            discusses how this affects personal autonomy and moral responsibility, 
+            explores the history of afreeism (the roots go back
+            several thousand years), 
+            probes the social policy implications, and examines 
+            how afreeism can change our personal lives for the better. 
           </p>
         </div>
       </div>
@@ -59,7 +53,7 @@
         <div style="margin:10px; padding:20px; background-color:white;"><routerLink :to="{name: 'Blog'}">Blog</routerLink></div>
       </div>
       <div class="Bottom">
-        Bottom
+        <BottomMenuCode />
       </div>
     </div>
   </div>
@@ -68,9 +62,16 @@
 
 <script>
 // @ is an alias to /src
+import LogoCode from '@/views/LogoCode.vue'
+import BottomMenuCode from '@/views/BottomMenuCode.vue'
+import TopMenCode from '@/views/TopMenCode.vue'
+
 export default {
-  name: 'Who_Are_We',
-};
+  name: 'Home',
+  components:{
+    TopMenCode,LogoCode,BottomMenuCode,
+  },
+}
 </script>
 <style>
 </style>
