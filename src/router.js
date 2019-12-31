@@ -6,9 +6,6 @@ import Newsletter from '@/views/Newsletter.vue';
 import Blog from '@/views/Blog.vue';
 import JoinUs from '@/views/JoinUs.vue';
 import Who_Are_We from '@/views/Who_Are_We.vue';
-import Contents from '@/views/Topics/Contents';
-import Illusion from '@/views/Topics/Illusion';
-import Contents2 from '@/views/Topics/Contents2';
 import Basics from '@/views/Topics/Basics';
 import Policy from '@/views/Topics/Policy';
 import Personal from '@/views/Topics/Personal';
@@ -48,11 +45,7 @@ export default new Router({
       name: 'Who_Are_We',
       component: Who_Are_We,
     },
-    {
-      path: '/Topics/Contents',
-      name: 'Contents',
-      component: Contents,
-    },
+  
     {
       path: '/Topics/Basics',
       name: 'Basics',
@@ -68,16 +61,7 @@ export default new Router({
       name: 'Personal',
       component: Personal,
     },
-    {
-      path: '/WebTutorial/Illusion',
-      name: 'Illusion',
-      component: Illusion,
-    },
-    {
-      path: '/WebTutorial/Contents2',
-      name: 'Contents2',
-      component: Contents2,
-    },
+  
     {
       path: '/AfreeistHandbook',
       name: 'AfreeistHandbook',
