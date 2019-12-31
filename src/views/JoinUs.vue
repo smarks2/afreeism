@@ -5,15 +5,25 @@
         <div style="padding:0px 20px;">Login</div>
         <div style="padding:0px 20px;">Contribute</div>
       </div>
-     <div class="Logo">
-        <LogoCode />
+      <div class="Logo">
+        <routerLink :to="{name: 'Home'}">
+          <div>The</div>
+          <div>Afreeist</div>
+          <div>Society</div>
+        </routerLink>
       </div>
-      <div class="PageTitle">
-        <span>Join Us!</span>
+      <div class="Quote">
+        <span class="PageTitle">Join Us!</span>
       </div>
-      <TopMenCode />
+      <div class="TopMen">
+        <div style="font-size:18px; padding:10px 30px;">
+          <routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink>
+        </div>
+        <div style="font-size:18px; padding:10px 30px;">
+          <routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink>
+        </div>
+      </div>
       <div class="Main">
-        <div class="MainText">
         <p>
           Joining just gets you put on our email mailing list. If you wish to be put on our mailing
           list please send an email to smarks@bu.edu.
