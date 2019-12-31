@@ -1,44 +1,35 @@
 <template>
   <div>
     <div class="HomePage">
-      <div class="Top">
+      <div class="Top"> 
         <div style="padding:0px 20px;">Login</div>
         <div style="padding:0px 20px;">Contribute</div>
       </div>
       <div class="Logo">
-        <routerLink :to="{name: 'Home'}">
-          <div>The</div>
-          <div>Afreeist</div>
-          <div>Society</div>
-        </routerLink>
+        <LogoCode />
       </div>
-      <div class="Quote">
-        <span class="PageTitle">Join Us!</span>
+      <div class="PageTitle">
+        <span>Join Us!</span>
       </div>
-      <div class="TopMen">
-        <div style="font-size:18px; padding:10px 30px;">
-          <routerLink :to="{name: 'Explore'}">What Is Afreeism?</routerLink>
-        </div>
-        <div style="font-size:18px; padding:10px 30px;">
-          <routerLink :to="{name: 'Who_Are_We'}">Who Are We?</routerLink>
-        </div>
-      </div>
+      <TopMenCode />
       <div class="Main">
         <p>
           Joining just gets you put on our email mailing list. If you wish to be put on our mailing
-          list please send an email to smarks@bu.edu.
+          please give us the information below.  This information will not be shared with anyone.
         </p>
-        <form @submit.prevent>
-          <label>Name:</label>
-          <input type="text" v-model="name" />
-          <label>Email:</label>
-          <input type="email" v-model="email" />
+        <div style="margin-left:20px;">
+        <form @submit.prevent >
+          <label>  Name:  </label>
+          <input type="text" v-model="name" style="width:250px;" />
+          <label>  Email:  </label>
+          <input type="email" v-model="email" /><span>&nbsp;&nbsp;&nbsp;</span>
           <button @click="addUser">Join</button>
         </form>
+        </div>
       </div>
       <div class="RSidebar" style="padding:20px;">
         <div style="margin:10px; padding:20px; background-color:white;">
-          <routerLink :to="{name: 'JoinUs'}">JoinUs</routerLink>
+          <routerLink :to="{name: 'JoinUs'}">Join Us</routerLink>
         </div>
         <div style="margin:10px; padding:20px; background-color:white;">
           <routerLink :to="{name: 'Newsletter'}">Newsletter</routerLink>
@@ -47,16 +38,23 @@
           <routerLink :to="{name: 'Blog'}">Blog</routerLink>
         </div>
       </div>
-      <div class="Bottom">Bottom</div>
+      <div class="Bottom">
+        <BottomMenuCode />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import LogoCode from '@/views/LogoCode.vue'
+import BottomMenuCode from '@/views/BottomMenuCode.vue'
+import TopMenCode from '@/views/TopMenCode.vue'
 import db from '@/firebase/init';
 export default {
   name: 'JoinUs',
+  components:{
+    TopMenCode,LogoCode,BottomMenuCode,},
   data() {
     return {
       name: null,

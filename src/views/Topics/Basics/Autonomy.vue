@@ -37,7 +37,19 @@ These are all stories about how horrible the world would be if determinism were 
 However, it turns out that such a world is not so horrible after all.  As Dennett points out, none of these stories are good analogies for life in a deterministic world.  Although our actions are determined, they are not determined by another human being who secretly controls us.  There is no Invisible Jailor, Nefarious Neurosurgeon, Hideous Hypnotist, or the like.  Second, and this is directed towards the Digger Wasp analogy, although our actions are determined, the causal mechanism is quite different than that of other organisms.  Unlike the digger wasp, we use reason.  We look at the consequences of our actions.  We make predictions about the future.  We are not acting instinctually even though our choices are causally determined.
 </p>
 <p>
-Nevertheless, our lives are still determined by causal factors that were unleashed long before we were born.  Completely determined.  All that we think, say, do, and feel, has been determined. This is the truth of the world.  We need to get comfortable with that fact and what it implies.  Fortunately, the implications are not as bad as some would have us believe.  In fact, understanding determinism and its implications for free will can make our lives and the world better.  So rather than putting our heads in the sand and pretending that determinism is not true, let us try to understand it.
+Nevertheless, our lives are still determined by causal factors 
+that were unleashed long before we were born.  Completely determined.  
+All that we think, say, do, and feel, has been determined. This is the 
+truth of the world.  We need to get comfortable with that fact and 
+what it implies.  Fortunately, the implications are not as bad as 
+some would have us believe.  In fact, understanding determinism 
+and its implications for free will can make our lives and the 
+world better.  So rather than putting our heads in the sand 
+and pretending that determinism is not true, let us try to understand it.
+</p>
+<p>
+One way to look at the question of autonomy is through the <i>lens of causation</i>.
+Please scroll down to see an explanation of this metaphor.
 </p>
 
         <p><a href="#Back">Back to top.</a></p>
