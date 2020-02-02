@@ -6,7 +6,8 @@
 
 <style lang="scss">
 body {background-color:#074477; padding:20px}
-p {text-align:left; color:black;}
+p {text-align:left; color:black; font-size:16px;}
+h2 {text-align:left; color:black; font-weight:bold; font-size:16px;}
 div {text-align:left;}
 a {
   text-decoration:none
@@ -106,7 +107,6 @@ a:active {
   grid-area: Main;
   background-color:#caebf2;
   padding: 10px;
-
 }
 .RSidebar {
   grid-area: RSidebar;
@@ -184,7 +184,7 @@ border-top-right-radius:25px;
   border:solid;
   padding:20px;
   background-color:ivory;
-  min-height:200px;  
+  mn-height:200px;
 }
 .MainTextTopics {
   border-left-style:solid;

@@ -2,8 +2,8 @@
   <div>
     <div class="HomePage">
       <div class="Top"> 
-        <div style="padding:0px 20px;">Login</div>
-        <div style="padding:0px 20px;">Contribute</div>
+        <div style="padding:0px 20px;"></div>
+        <div style="padding:0px 20px;"></div>
       </div>
       <div class="Logo">
         <LogoCode />
@@ -36,10 +36,13 @@
             <a href="#Crime">Crime</a>
           </div>
           <div class="Topic">
+            <a href="#Wealth_Poverty">Wealth and Poverty</a>
+          </div>
+          <div class="Topic">
             <a href="#Immigration">Immigration</a>
           </div>
           <div class="Topic">
-          Freedom
+            <a href="#Freedom">Freedom</a>
           </div>
          
         </div>
@@ -47,7 +50,9 @@
           <Deservedness />
           <Equality />
           <Crime />
+          <Wealth_Poverty />
           <Immigration />
+          <Freedom />
         </div>
       </div>
       <div class="RSidebar" style="padding:20px;">
@@ -70,11 +75,21 @@ import TopMenCode from '@/views/TopMenCode.vue'
 import Deservedness from '@/views/Topics/Policy/Deservedness.vue'
 import Equality from '@/views/Topics/Policy/Equality.vue'
 import Crime from '@/views/Topics/Policy/Crime.vue'
+import Wealth_Poverty from '@/views/Topics/Policy/Wealth_Poverty.vue'
 import Immigration from '@/views/Topics/Policy/Immigration.vue'
+import Freedom from '@/views/Topics/Policy/Freedom.vue'
 export default {
   name: 'Home',
   components:{
-    TopMenCode,LogoCode,BottomMenuCode,Deservedness,Equality,Crime,Immigration,
+    TopMenCode,
+    LogoCode,
+    BottomMenuCode,
+    Deservedness,
+    Equality,
+    Crime,
+    Wealth_Poverty,
+    Immigration,
+    Freedom,
   },
 }
 </script>

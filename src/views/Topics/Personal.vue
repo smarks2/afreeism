@@ -2,8 +2,8 @@
   <div>
     <div class="HomePage">
       <div class="Top"> 
-        <div style="padding:0px 20px;">Login</div>
-        <div style="padding:0px 20px;">Contribute</div>
+        <div style="padding:0px 20px;"></div>
+        <div style="padding:0px 20px;"></div>
       </div>
      <div class="Logo">
         <LogoCode />

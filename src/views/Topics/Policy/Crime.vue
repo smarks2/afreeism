@@ -18,10 +18,10 @@ First note that if the system tumbles into the sea, so be it.  Free will is a my
 <p>
 In designing a just and moral society, we are faced with many challenges.  Two primary ones are:
 </p>
-<p>
+<p style="margin-left:20px;">
 1.	What should the rules for behavior be?
 </p>
-<p>
+<p style="margin-left:20px;">
 2.	What should be the rewards and punishments for following or deviating from the rules?
 </p>
 <p>
@@ -39,16 +39,16 @@ And if we cannot punish, what is to become of society?  How do we peaceful law-a
 <p>
 In general, rationales for punishment include these:
 </p>
-<p>
+<p style="margin-left:20px;">
 1.	Teaching people moral and legal standards.
 </p>
-<p>
+<p style="margin-left:20px;">
 2.	Exacting retribution from (assigning blame to) those who violate those standards.
 </p>
-<p>
+<p style="margin-left:20px;">
 3.	Deterring people from violating those standards.
 </p>
-<p>
+<p style="margin-left:20px;">
 4.	Incapacitating (removing from general society) people who would likely violate those standards again in the future.
 </p>
 <p>
@@ -72,13 +72,13 @@ Exactly how punishment might have evolved to enable our social living remains a 
 <p>
 Hoffman goes on to point out that our brains are wired to implement punishment in three ways: 
 </p>
-<p>
+<p style="margin-left:20px;">
 1.	We feel guilt at our own antisocial behavior.  (First-party punishment.)
 </p>
-<p>
+<p style="margin-left:20px;">
 2.	We feel the need to retaliate against and to seek revenge from those who harm us.  (Second-party punishment.)
 </p>
-<p>
+<p style="margin-left:20px;">
 3.	We feel the need to exact retribution against those who harm others.  (Third-party punishment.)
 </p>
 <p>
@@ -219,13 +219,13 @@ We see this everyday when people who believe they are doing good, end up doing h
 <p>
 Let us summarize:
 </p>
-<p>
+<p style="margin-left:20px;">
 1.	Because the world is deterministic, there is no free will and no moral responsibility for past actions.
 </p>
-<p>
+<p style="margin-left:20px;">
 2.	Maintaining the myth of free will and moral responsibility is probably not possible in the long-run.  There is too much scientific evidence against it.  Furthermore, maintaining this myth results in outcomes that often do not serve the social good.
 </p>
-<p>
+<p style="margin-left:20px;">
 3.	Even without the belief in free will and moral responsibility we can create moral rules and justify punishments for violating those rules.  The punishments serve to educate and deter.  In addition, in some cases confinement can be justified where confinement is necessary to protect the public.
 </p>
 <p>
@@ -237,25 +237,25 @@ The criminal law operationalizes this idea of free will and moral responsibility
 <p>
 Mental state makes a big difference in the criminal law.  Consider the following variations of someone (a driver) who kills someone else (a victim) by running her over in a car:
 </p>
-<p>
+<p><p style="margin-left:20px;">
 1.	The driver intends to kill the victim.
 </p>
-<p>
+<p><p style="margin-left:20px;">
 2.	The driver is drunk and impaired.  The driver does not intend to kill anyone.
 </p>
-<p>
+<p style="margin-left:20px;">
 3.	The driver is not drunk or impaired, but is operating the vehicle negligently, perhaps driving 50 mph in a 25 mph school zone.  The driver does not intend to kill anyone.
 </p>
-<p>
+<p style="margin-left:20px;">
 4.	The driver is old and infirm with poor eyesight and slow reaction time.  The driver does not see the victim in time and kills her.
 </p>
-<p>
+<p style="margin-left:20px;">
 5.	The driver is driving fast at the point of a gun.    The driver loses control and runs over and kills the victim.
 </p>
-<p>
+<p style="margin-left:20px;">
 6.	The driver is in fact driving reasonably for the conditions and obeying all laws.  Nevertheless, the driver suffers a stroke in the car, loses control, and kills the victim.
 </p>
-<p>
+<p style="margin-left:20px;">
 7.	The driver is in fact driving reasonably for the conditions and obeying all laws.  Nevertheless, the victim runs out in front of the car, is struck, and dies.
 </p>
 <p>

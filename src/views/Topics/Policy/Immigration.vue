@@ -13,10 +13,10 @@ Afreeism teaches us that no one deserves anything ever.  The resultant Equality 
 <p>
 One way to promote equality of opportunity and benefits is through a generous immigration policy.  This policy would allow as much immigration as possible consistent with maintaining an orderly and productive system.  The Equality Principle can be reframed in the immigration context:
 </p>
-<p>
+<p style="margin-left:20px;">
 1.	Unless there are reasons for doing otherwise, people should have the freedom to move wherever they want.
 </p>
-<p>
+<p style="margin-left:20px;">
 2.	Deservedness cannot be a reason for limiting freedom of movement.
 </p>
 <p>
