@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="HomePage">
+    <div class="HomePage"  id="Back">
       <div class="Top"> 
         <div style="padding:0px 20px;"></div>
         <div style="padding:0px 20px;"></div>
@@ -9,7 +9,7 @@
         <LogoCode />
       </div>
       <div class="PageTitle">
-        <span id="Back">What Is Afreeism?</span>
+        <span>What Is Afreeism?</span>
       </div>
       <TopMenCode />
       

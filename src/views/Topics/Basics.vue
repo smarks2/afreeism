@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="HomePage">
+    <div class="HomePage"  id="Back">
       <div class="Top">
         <div style="padding:0px 20px;"></div>
         <div style="padding:0px 20px;"></div>
@@ -9,7 +9,7 @@
         <LogoCode />
       </div>
       <div class="PageTitle">
-        <span id="Back">What Is Afreeism?</span>
+        <span>What Is Afreeism?</span>
       </div>
       <TopMenCode />
       <div class="Main">
@@ -45,7 +45,10 @@
             <a href="#Determinism">Determinism</a>
           </div>
           <div class="Topic">
-            <a href="#Quantum_Chaos">Chaos and Quantum Mechanics</a>
+            <a href="#Causal_Determinism">Causal Determinism</a>
+          </div>          
+          <div class="Topic">
+            <a href="#Quantum_Chaos">Quantum Mechanics, Chaos, and Stochastic Determinism</a>
           </div>
           <div class="Topic">
             <a href="#Autonomy">Autonomy</a>
@@ -71,6 +74,7 @@
           <Free_Will_Defined />
           <Why_No_Free_Will />
           <Determinism />
+          <Causal_Determinism />
           <Quantum_Chaos />
           <Autonomy />
           <Moral_Obligation />
@@ -78,6 +82,7 @@
           <Lens />
           <Counterarguments />
           <Origins />
+          <Determinism_Types />
           <!-- -------------------------------------------------- -->
         </div>
       </div>
@@ -107,6 +112,7 @@ import TopMenCode from "@/views/TopMenCode.vue";
 import What_Is_Afreeism from "@/views/Topics/Basics/What_Is_Afreeism.vue";
 import Free_Will_Defined from "@/views/Topics/Basics/Free_Will_Defined.vue";
 import Why_No_Free_Will from "@/views/Topics/Basics/Why_No_Free_Will.vue";
+import Causal_Determinism from "@/views/Topics/Basics/Causal_Determinism.vue";
 import Determinism from "@/views/Topics/Basics/Determinism.vue";
 import Quantum_Chaos from "@/views/Topics/Basics/Quantum_Chaos.vue";
 import Autonomy from "@/views/Topics/Basics/Autonomy.vue";
@@ -124,6 +130,7 @@ export default {
     What_Is_Afreeism,
     Free_Will_Defined,
     Why_No_Free_Will,
+    Causal_Determinism,
     Determinism,
     Quantum_Chaos,
     Autonomy,

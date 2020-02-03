@@ -1,19 +1,24 @@
 <template>
   <div id="Determinism" class="TopicExplanation">
       <div class="TopicHeading">Determinism</div>
-        <p>
-          Determinism is the idea that events unfold due to causes and that humans are not
-          exempt from these laws of the universe.  Some forms of determinism allow for randomness,
-          particularly, quantum mechanical randomness.  
+        
+
+
+<p>
+Determinism is the idea that all things are either caused or, in the subatomic quantum-mechanical
+realsm, random.  In this website, we will use the following definitions of determinism.
+</p>
         <p>
           <b>Causal Determinism:</b>  The view that all events are caused.  Thus, the universe has 
-          been and will be completely determined from at least the time of the big bang.
+          been and will be completely determined from at least the time of the big bang.  (See the topic 
+          "Causal Determinism" for a discussion of this concept.)
         </p>
         <p>
           <b>Stochastic Determinism:</b>  The view that all events are either caused or random.  That is, 
           there may exist some events, such as quantum events, that are truly random.  Thus, if we 
           reran the universe from any given point it could unfold in different ways.  Nevertheless, 
-          there are only two types of events, those that are caused and those that are random.
+          there are only two types of events, those that are caused and those that are random.  (See the topic
+          "Quantum Mechanics, Chaos, and Stochastic Determinism" for a discussion of this topic.)
         </p>
         <p style="margin-left:20px;"> 
           <b>Strong Stochastic Determinism:</b>  The view that all events are either caused or random 
@@ -31,13 +36,17 @@
           determinism in one of its forms is true.  
         </p>
         <p>
-          Determinism relates to afreeism in the following way.  Determinism is the theory that all events
-          are either caused or random.  Since the universe is deterministic, all events turn out the way
-          they do as the result of a chain of causation.  This applies to human actions and decisions.  
+          Determinism relates to afreeism in the following way.   Determinism is the theory 
+          that all events
+          are either caused or random.  Since the universe is deterministic, 
+          all events turn out the way
+          they do as the result of a chain of causation, possibly disturbed here and
+          there by  
+          random quantum-mechanical perterbations.  This applies to human actions and decisions.  
           That is, humans are not exempt from laws of physics.
-          Whatever action a person does, it is a result of a chain of causation and could not be otherwise.
-          As a result, humans do not have free will.  This is true even if there is randomness.  Actions
-          that are the result of, say random firing of neurons, cannot be the result free will.  
+          Whatever action a person does, it is a result of this chain of causation.
+          As a result, humans do not have free will.  Thus both causal and stochastic
+          determinism imply a lack of free will.  
         </p>
                 <p><a href="#Back">Back to top.</a></p>
         </div>

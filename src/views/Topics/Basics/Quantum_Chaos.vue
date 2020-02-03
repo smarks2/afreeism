@@ -1,6 +1,6 @@
 <template>
   <div id="Quantum_Chaos" class="TopicExplanation">
-    <div class="TopicHeading">Quantum Mechanics, Chaos Theory, and Free Will</div>
+    <div class="TopicHeading">Quantum Mechanics, Chaos, and Stochastic Determinism</div>
     <p>At this point, we must discuss one little wrinkle in the deterministic universe. As we discussed above, random events are generally determined events about which we do not have sufficient information to make predictions. The study of subatomic particles, however, has led to the theory of quantum mechanics, which includes the idea that there may be truly random events, at least at the subatomic level.</p>
     <p>Quantum mechanics can possibly affect the macro universe through chaotic interactions. Chaos theory holds that tiny effects can have large consequences. Here is a well-known description of a chaotic chain:</p>
     <p style="margin-left:20px;">

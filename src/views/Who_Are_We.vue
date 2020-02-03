@@ -31,19 +31,23 @@
             c. To promote the values and ideals of afreeism.
           </p> 
           <p>
-            <b>How can I learn more about afreesim?</b>
+            <b>How can I learn more about afreeism?</b>
           </p>
-          <p>
-            If you
-            wish to explore these ideas, a good starting point is 
-            <routerLink :to="{name: 'Explore'}">here</routerLink>, where you can find links to
-            explanations of afreeist concepts and ideals and also to the Afreeist Handbook.  
+           <p>
+  If you
+            wish to explore these ideas, a good starting point is the
+            <a href="Topics/Basics">What Is Afreeism?</a> section 
+            of the website, where you can find links to
+            explanations of afreeist concepts and ideals. If you prefer something
+            in book form with more examples and explanations, please check out the
+            <a href='AfreeistHandbook'>Afreeist Handbook</a>.  
             These resources explain why free will is an illusion,
             discusses how this affects personal autonomy and moral responsibility, 
             explores the history of afreeism (the roots go back
             several thousand years), 
             probes the social policy implications, and examines 
             how afreeism can change our personal lives for the better. 
+            
           </p>
         </div>
       </div>

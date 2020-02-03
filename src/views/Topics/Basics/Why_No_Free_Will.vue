@@ -26,7 +26,9 @@
           we could not have done otherwise.  Thus we do not have free will.  The notion 
           that we have free will is just an illusion.
         <p>
-          This idea is explored in greater detail in the 
+          These ideas are further explored in the next three sections (Determinism, Causal Determinism,
+          and Quantum Mechanics, Chaos, and Stochastic Determinism).  These ideas are also
+          explored in even greater detail in the 
           <routerLink :to="{name: 'AfreeistHandbook'}">Afreeist Handbook</routerLink>, in the 
           Introduction and Chapter 1.
         </p>

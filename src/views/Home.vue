@@ -65,6 +65,22 @@
   These are just a few of the implications of afreeism.  Afreeism has much to say about our
   place in the universe, our relationship to our fellow beings, and how we want to organize
   society.</p>
+  <p>
+  If you
+            wish to explore these ideas, a good starting point is the
+            <a href="Topics/Basics">What Is Afreeism?</a> section 
+            of the website, where you can find links to
+            explanations of afreeist concepts and ideals. If you prefer something
+            in book form with more examples and explanations, please check out the
+            <a href='AfreeistHandbook'>Afreeist Handbook</a>.  
+            These resources explain why free will is an illusion,
+            discusses how this affects personal autonomy and moral responsibility, 
+            explores the history of afreeism (the roots go back
+            several thousand years), 
+            probes the social policy implications, and examines 
+            how afreeism can change our personal lives for the better. 
+            
+          </p>
   </div>
       </div>
       <div class="RSidebar" style="padding:20px;">
