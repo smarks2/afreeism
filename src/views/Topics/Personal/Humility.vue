@@ -60,18 +60,18 @@
       just a speck in time. The Stoics of ancient Greece and Rome,
       who were determinists, understood this. Seneca wrote:
     </p>
-    <p style="margin-left:20px;">
+    <p class="Quote">
       Imagine the vast abyss of time, and think of the entire universe;
       then compare what we call a human lifetime to that immensity.
       You will see how tiny a thing it is that we wish for and seek to prolong.
     </p>
     <p>And also:</p>
-    <p style="margin-left:20px;">
+    <p class="Quote">
       Present time is very short – so short, indeed, that for some it seems not to exist.
       It is always in motion, it flows and hurries on; it ceases to be before it arrives.
     </p>
     <p>Marcus Aurelius concurred:</p>
-    <p style="margin-left:20px;">
+    <p class="Quote">
       Short-lived are both the praiser and the praised,
       the rememberer and the remembered. And all this in just one corner of this
       continent – and yet even here we are not in accord with each other, nor with
@@ -85,23 +85,19 @@
       happening to us. Whatever our concerns, they are small and fleeting compared to the universe.
       Marcus Aurelius again:
     </p>
-    <p
-      style="margin-left:20px;"
-    >You can get rid of a great number of your annoyances because they lie entirely in your own head. You will clear ample space for yourself by comprehending the scale of the universe in your mind, by observing the infinity of time, and by studying carefully the rapid change of each part of each thing – how short the time is from birth to dissolution, the time before it an abyss, the time afterwards also endless.</p>
+    <p class="Quote">
+      You can get rid of a great number of your annoyances because they lie entirely in your own head. You will clear ample space for yourself by comprehending the scale of the universe in your mind, by observing the infinity of time, and by studying carefully the rapid change of each part of each thing – how short the time is from birth to dissolution, the time before it an abyss, the time afterwards also endless.</p>
     <p>And again,</p>
-    <p
-      style="margin-left:20px;"
-    >Think often about how quickly everything that exists, and that is coming into being, is carried away and disappears. For substance is like a river that constantly flows on: the action is constantly changing, and the causes of it operate in endless variations; almost nothing is fixed. And next to us is the boundless abyss of what has passed by and what is about to be, into which all things are lost. How then is he not a fool, who gets worked up and carried away over these things, complaining as if they were enduring and troublesome?</p>
+    <p class="Quote">
+      Think often about how quickly everything that exists, and that is coming into being, is carried away and disappears. For substance is like a river that constantly flows on: the action is constantly changing, and the causes of it operate in endless variations; almost nothing is fixed. And next to us is the boundless abyss of what has passed by and what is about to be, into which all things are lost. How then is he not a fool, who gets worked up and carried away over these things, complaining as if they were enduring and troublesome?</p>
     <p>I should say that the Stoics did not say that we should not enjoy the moment. Quite the contrary. Nor did they believe in inaction. They just believed that we take ourselves too seriously and that we should lighten up a bit. The Buddha concurs:</p>
-    <p
-      style="margin-left:20px;"
-    >Most people never realize that all of us here shall one day perish. But those who do realize that truth settle their quarrels peacefully.</p>
+   <p class="Quote">
+     Most people never realize that all of us here shall one day perish. But those who do realize that truth settle their quarrels peacefully.</p>
     <p>
       <b>The Willingness to Say “I Don’t Know”</b>
     </p>
-    <p
-      style="margin-left:20px;"
-    >“It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so.”</p>
+    <p class="Quote">
+      “It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so.”</p>
     <p style="margin-left:60px;">Author Unknown</p>
     <p>The universe is deterministic. Events unfold because of a chain of causes. This does not mean that the causal chain is simple. Indeed, its complexity boggles the mind. We know so little about how the universe unfolds, but science continues apace and we make progress every day. We have put a person on the moon, we have eradicated smallpox, we have created cellphones and supercomputers. Still, much eludes us. People still die of cancer. And many big questions also elude us. How did we get here? How did life begin? Does it have any purpose at all? What does it mean to live the good life?</p>
     <p>The most appropriate answer to most of these questions is, for the present, “We don’t know.” Yet this seems to be a difficult admission for many, if not most. There are those who purport to have the answer to these questions of existence, purpose, and meaning. The earth was created in six days. Our purpose is to serve a god. Suffering is a test of faith. If we do the right things, we can attain heaven or nirvana. If we fail, then hell awaits us, or perhaps reincarnation to try again. So many answers, so little evidence!</p>

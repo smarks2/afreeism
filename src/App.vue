@@ -24,6 +24,13 @@ a:hover {
 a:active {
   color:yellow;
 }
+.Quote {
+  margin-left:20px;
+  margin-right:20px;
+}
+.Heading {
+  font-weight:bold;
+}
 .TopMenu > div {
   font-size: 16px;
   color: black;
